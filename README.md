@@ -4,14 +4,19 @@ Assumptions: For a movie, there will always be (number of letters X number of se
 
 Approach: However, multiple random moments of sale (independent from each other) will produce a much better unit test coverage. 
 
-Solution: In order to do that, we will test different sales through the use of parameterization, providing on each:
+Solution: In order to do that, we will test different sales through the use of parameterization, providing on each of them:
+
+INPUT: 
+
+- Available number of seats at that moment (integer)
+- Number of tickets that are being purchased (integer)
+- Maximum number of seats that can be purchased on a single sale
 
 - Number of rows (first one will always be A)
 - Number of seats in a row
-- Maximum number of seats that can be purchased on a single sale
-- Available number of seats at that moment (integer)
-- Number of tickets that are being purchased (integer)
-- Expected seats to be provided by the cinema (string array)
+
+OUTPUT: Expected seats to be provided by the cinema (string array)
+
 
 Future thoughts
 
